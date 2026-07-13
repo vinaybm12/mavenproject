@@ -9,7 +9,7 @@ jobs:
 
    steps:
      - name: cloning maven-project
-       uses: action/checkout@v4
+       uses: actions/checkout@v4
 
      -  name: generstring maven build
         uses: actions/setup-java@v5.5.0
